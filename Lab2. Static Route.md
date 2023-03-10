@@ -25,4 +25,29 @@
 |    | Lo0 | 5.5.5.5 |
 |    | Lo1 | 55.55.55.55 | 
 
-- 
+- Định tuyến trên các Router: 
+- R1: 
+
+![2](/image/2023-03-10-2.png)
+
+- R2:
+ 
+![3](/image/2023-03-10-3.png)
+
+- R3: 
+
+![4](/image/2023-03-10-4.png)
+
+- R4: 
+
+![5](/image/2023-03-10-5.png)
+
+- R5: 
+
+![6](/image/2023-03-10-6.png)
+
+### Default Route tại R1 và R2 mà đang lỗi nên route trực tiếp từ R1 đến các vùng mạng con. Đọc lại thì phải khắc phục được lỗi này.
+
+- Traceroute từ R1 đến các vùng Lo của Router5
+
+![7](/image/2023-03-10-7.png)
