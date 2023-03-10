@@ -25,7 +25,7 @@
 |    | Lo0 | 5.5.5.5 |
 |    | Lo1 | 55.55.55.55 | 
 
-- Định tuyến trên các Router: 
+- Định tuyến trên các Router: ip route `địa chỉ (vùng) mạng đích` `subnetmask` `ip next hop/cổng ra` 
 - R1: 
 
 ![2](/image/2023-03-10-2.png)
